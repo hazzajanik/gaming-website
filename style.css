@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* btn style */
+.btn-primary{
+    background-color: #FF42A5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.container .banner .banner-header .btn-primary-two{
+    background-color: #4EC5F7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+/* nav bar style */
+nav{
+    margin-top: 35px;
+}
+
+.container .nav-logo img{
+    width: 58px;
+    height: 29px;
+    /* padding-top: 2px; */
+}
+.container .nav-logo span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container .nav-logo{
+    display: flex;
+    gap: 15px;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .nav-bar{
+    display: flex;
+    gap: 15px;
+}
+.container .nav-bar a{
+    text-decoration: none;
+    color: #3C354F;
+}
+ .container .nav-bar .extra-div{
+    display: flex;
+    gap: 12px;
+    height: 25px;
+    padding: 0 2px;
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+    position: relative;
+    left: 3px;
+    right: 3px;
+}
+.container .nav-bar .extra-div a{
+    position: relative;
+    bottom: -3px; 
+}
+.container .nav-bar .extra-div img{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    position: relative;
+    bottom: 0px;
+
+}
+/* header banner part */
+
+.banner{
+    margin-top: 150px;
+}
+.container .banner-header .first{
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    top: 22px;
+}
+.container .banner-header .second{
+    font-weight: 800;
+    font-size: 50px;
+    color: #8758F1;
+    position: relative;
+    bottom: 10px;
+    /* padding-bottom: 50px; */
+}
+.container .banner-header p{
+    position: relative;
+    bottom: 31px;
+}
+.container .banner{
+    display: flex;
+    justify-content: space-between;
+}
+.container .banner-pic img{
+    height: 600px;
+    width: 600px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* main part style */
+.gamer{
+    position: relative;
+    bottom: 90px;
+}
+.gamer .container img{
+    height: 500px;
+    width: 500px;
+}
+.gamer .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+.gamer .container .about-gamer{
+    text-align: end;
+}
+.gamer .container .about-gamer h2{
+    color:#8758F1;
+}
+
