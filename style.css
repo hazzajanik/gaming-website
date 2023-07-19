@@ -14,6 +14,7 @@ body{
     border: none;
     border-radius: 20px;
     padding: 10px 15px;
+    font-weight: 600;
 }
 .span-color{
     color: #FF42A5;
@@ -24,6 +25,7 @@ body{
     border: none;
     border-radius: 20px;
     padding: 10px 15px;
+    font-weight: 600;
 }
 /* nav bar style */
 nav{
