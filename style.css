@@ -15,6 +15,10 @@ body{
     border-radius: 20px;
     padding: 10px 15px;
 }
+.span-color{
+    color: #FF42A5;
+}
+
 .container .banner .banner-header .btn-primary-two{
     background-color: #4EC5F7;
     color: #FFFFFF;
@@ -133,3 +137,160 @@ nav{
     color:#8758F1;
 }
 
+
+/* online games section */
+.online-games{
+    margin: 30px 0;
+}
+.online-games .container h2{
+    text-align: center;
+}
+.online-games .container p{
+    text-align: center;
+}
+
+.container .type-of-games img{
+    margin-top: 50px;
+    height: 250px;
+    width: 240px;
+    transform: scale(1);
+    transition: transform 0.7s;
+
+}
+.container .type-of-games img:hover{
+    /* height:255px ;
+    width: 245px; */
+    transform: scale(1.05);
+}
+
+
+
+.container .type-of-games{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+/* download and install styles */
+.download-install{
+    margin-top: 65px;
+}
+.download-install .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.download-install .container .description h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.download-install .container .description p{
+    text-align: center;
+}
+.download-install .container img{
+    height: 350px;
+    width: 360px;
+}
+.download-install .container .small-img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 92px;
+    bottom: 145px;
+}
+
+
+/* game name section style */
+
+
+.game-name .container .part-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.game-name .container .part-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.game-name .container img{
+    height: 40px;
+    width: 40px;
+}
+.game-name .container .cetagory span{
+    position: relative;
+    bottom: 13px;
+    left: 0px;
+    font-size: 15px;
+}
+.game-name .container .cetagory{
+    border:none;
+    border-radius: 19px;
+    color:#0B0223;
+}
+.game-name .container .cetagory:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 19px;
+    color:#FF42A5;
+}
+
+/* footer part style */
+
+footer{
+    background-color: #0B0223;
+    margin-top: 70px;
+    width: auto;
+}
+footer .nav-logo img{
+    width: 58px;
+    height: 29px;
+    /* padding-top: 2px; */
+}
+footer .nav-logo span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+footer .nav-logo{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.footer-para{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+footer .footer-social{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px auto;
+}
+.footer-social img{
+    width: 33px;
+    height: 27px;
+}
+footer .footer-description{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: small;
+}
+footer .last-part{
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+    font-size: small;
+}
