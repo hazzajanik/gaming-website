@@ -57,6 +57,7 @@ nav{
 .container .nav-bar a{
     text-decoration: none;
     color: #3C354F;
+    font-weight: 500;
 }
  .container .nav-bar .extra-div{
     display: flex;
@@ -100,6 +101,7 @@ nav{
 .container .banner-header p{
     position: relative;
     bottom: 31px;
+    font-weight: 500;
 }
 .container .banner{
     display: flex;
@@ -130,6 +132,7 @@ nav{
 .gamer .container .about-gamer{
     text-align: end;
     color: #534C64;
+    font-weight: 500;
 }
 .gamer .container .about-gamer h2{
     color:#8758F1;
@@ -147,8 +150,8 @@ nav{
     color:#8758F1;
 }
 .online-games .container p{
-    padding-right: 88px;
     text-align: center;
+    font-weight: 500;
 }
 
 .container .type-of-games img{
@@ -192,6 +195,7 @@ nav{
 }
 .download-install .container .description p{
     text-align: center;
+    font-weight: 500;
 }
 .download-install .container img{
     height: 350px;
