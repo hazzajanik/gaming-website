@@ -18,7 +18,6 @@ body{
 .span-color{
     color: #FF42A5;
 }
-
 .container .banner .banner-header .btn-primary-two{
     background-color: #4EC5F7;
     color: #FFFFFF;
@@ -132,6 +131,7 @@ nav{
 }
 .gamer .container .about-gamer{
     text-align: end;
+    color: #534C64;
 }
 .gamer .container .about-gamer h2{
     color:#8758F1;
@@ -144,6 +144,9 @@ nav{
 }
 .online-games .container h2{
     text-align: center;
+}
+.online-games .container h2 span{
+    color:#8758F1;
 }
 .online-games .container p{
     text-align: center;
@@ -184,6 +187,9 @@ nav{
 .download-install .container .description h2{
     margin-top: 100px;
     text-align: center;
+}
+.download-install .container .description h2 span{
+    color: #8758F1;
 }
 .download-install .container .description p{
     text-align: center;
@@ -255,6 +261,10 @@ footer .nav-logo span{
     font-weight: 700;
     color: #FFFFFF;
 }
+footer .nav-logo span .span-color{
+    color: #FF42A5;
+}
+
 
 footer .nav-logo{
     display: flex;
