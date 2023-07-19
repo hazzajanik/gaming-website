@@ -55,6 +55,10 @@
         align-items: center;
         flex-direction: column;
     }
+    .game-name .container .part-1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
     .online-games .container .g-tittle {
         /* padding-right: 17px; */
         text-align: center;
