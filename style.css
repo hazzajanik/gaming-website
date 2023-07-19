@@ -149,6 +149,7 @@ nav{
     color:#8758F1;
 }
 .online-games .container p{
+    padding-right: 88px;
     text-align: center;
 }
 
@@ -303,4 +304,9 @@ footer .last-part{
     color: #FFFFFF;
     padding-bottom: 70px;
     font-size: small;
+}
+
+
+.hide{
+    display: none;
 }

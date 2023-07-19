@@ -1,0 +1,153 @@
+@media screen and (max-width:426px) {
+    /* gamer part responsive */
+    .container {
+        width: 425px;
+        margin: 0 auto;
+    }
+
+    /* nav bar style */
+    nav {
+        margin-top: 10px;
+    }
+
+    .container nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container .nav-bar {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner {
+        margin-top: 0;
+    }
+    .banner-header {
+        /* padding: 30px; */
+        padding-left: 119px;
+    }
+    /* banner part */
+    .container .banner {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .container .banner-pic img {
+        /* height: 588px; */
+        width: 412px;
+        position: relative;
+        /* bottom: 93px; */
+        padding-top: 100px;
+    }
+    .banner-header{
+        padding-left: 130px;
+        }
+
+
+
+    .gamer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .online-games .container .g-tittle {
+        /* padding-right: 17px; */
+        text-align: center;
+        padding-left: 100px;
+    }
+    .gamer .container img {
+        height: 450px;
+        width: 350px;
+    }
+    .gamer .container .about-gamer {
+        text-align: center;
+        color: #534C64;
+        padding: 30px;
+    }
+    /* online games  */
+    .container .type-of-games {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 95px;
+       }
+       .container .type-of-games img {
+        /* margin-top: 50px; */
+        height: 250px;
+        width: 240px
+    px
+    ;
+        transform: scale(1);
+        transition: transform 0.7s;
+    }
+    
+
+  
+    /* download and install part */
+
+    .download-install .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-direction: column;
+    }
+     
+    .download-install .container .description h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .download-install .container img {
+        height: 250px;
+        width: 250px;
+        padding-left: 131px;
+    }
+    .download-install .container .small-img {
+        height: 165px;
+        width: 160px;
+    }
+    
+    /* game name part */
+    .game-name .container .cetagory span {
+        position: relative;
+        bottom: -11px;
+        left: 0px;
+        font-size: 12px;
+    }
+    .game-name{
+        margin-top: -55px;
+    }
+
+
+
+    /* footer part of large mobile */
+    .footer-para {
+        padding-left: 110px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    footer .footer-social{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:40px;
+        margin-left: 77px;
+    }
+    footer .footer-description{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* gap:40px; */
+        margin-left: 77px;
+    }
+    footer .last-part{
+        padding-bottom: 60px;
+        padding-top: 30px;
+    }
+
+}
