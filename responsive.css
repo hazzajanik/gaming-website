@@ -55,14 +55,14 @@
         align-items: center;
         flex-direction: column;
     }
-    .game-name .container .part-1{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-     }
     .online-games .container .g-tittle {
         /* padding-right: 17px; */
         text-align: center;
-        padding-left: 100px;
+        /* padding-left: 0px; */
+    }
+    .online-games .container p {
+        text-align: start;
+        font-weight: 500;
     }
     .gamer .container img {
         height: 450px;
@@ -82,9 +82,7 @@
        .container .type-of-games img {
         /* margin-top: 50px; */
         height: 250px;
-        width: 240px
-    px
-    ;
+        width: 240px;
         transform: scale(1);
         transition: transform 0.7s;
     }
@@ -123,7 +121,12 @@
         font-size: 12px;
     }
     .game-name{
-        margin-top: -55px;
+        margin-top: -20px;
+    }
+    .game-name .container .part-1 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
     }
 
 
